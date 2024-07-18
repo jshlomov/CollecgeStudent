@@ -121,7 +121,6 @@ namespace CollecgeStudent.DAL
 				                            AND Cycle_ID = @cycleId)
 	                            BEGIN
 		                            INSERT INTO StudentsInCycles (Cycle_ID, Students_ID) values
-                                    OUTPUT INSERTED.ID
 		                            (@cycleId, @stuId);
 	                            END
                             ELSE

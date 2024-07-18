@@ -171,16 +171,16 @@
             // labal5
             // 
             labal5.AutoSize = true;
-            labal5.Location = new Point(953, 227);
+            labal5.Location = new Point(922, 223);
             labal5.Name = "labal5";
-            labal5.Size = new Size(149, 20);
+            labal5.Size = new Size(184, 20);
             labal5.TabIndex = 14;
-            labal5.Text = "רשום מספר קורס (ID)";
+            labal5.Text = "רשום מספר קורס (CycleID)";
             // 
             // textBox_CycleID
             // 
             textBox_CycleID.Font = new Font("Segoe UI", 12F);
-            textBox_CycleID.Location = new Point(965, 264);
+            textBox_CycleID.Location = new Point(953, 269);
             textBox_CycleID.Name = "textBox_CycleID";
             textBox_CycleID.Size = new Size(125, 34);
             textBox_CycleID.TabIndex = 15;
