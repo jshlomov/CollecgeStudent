@@ -77,8 +77,8 @@ namespace CollecgeStudent.View
                     return;
                 }
                 int cid = int.Parse(textBox_CycleID.Text.ToString());
-                dal.InsertStudentToCourse(student.ID, cid);
-                MessageBox.Show("נרשם בהצלחה");
+                int res = dal.InsertStudentToCourse(student.ID, cid);
+                if(res != 0) MessageBox.Show("נרשם בהצלחה");
                 LoadAll();
             }
             catch (Exception)
